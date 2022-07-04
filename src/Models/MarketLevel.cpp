@@ -1,20 +1,5 @@
-﻿export module MarketLevel;
-
-import Coin;
+﻿#include "MarketLevel.h"
 
 namespace Robot::Common::Models
 {
-	export class MarketLevel
-	{
-	public:
-		double value = 0.0;
-		Coin *cStart;
-		Coin *cEnd;
-		virtual ~MarketLevel()
-		{
-			delete cStart;
-			delete cEnd;
-		}
-
-	};
 }

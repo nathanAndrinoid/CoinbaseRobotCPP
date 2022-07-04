@@ -1,156 +1,142 @@
-﻿export module AuditLevelPath;
-
-import MarketPair;
-import Coin;
-import SavePathStep;
-import <vector>;
-import stringbuilder;
+﻿#include "AuditLevelPath.h"
+#include "SavePathStep.h"
 
 namespace Robot::Common::Models
 {
-	export class AuditLevelPath
+
+	AuditLevelPath::AuditLevelPath(std::vector<MarketPair*> &marketPairArray, std::vector<Coin*> &coinArray)
 	{
-	private:
-		std::vector<MarketPair*> marketPairArray;
-		std::vector<Coin*> coinArray;
+		this->marketPairArray = marketPairArray;
+		this->coinArray = coinArray;
+	}
 
-	public:
-		AuditLevelPath(std::vector<MarketPair*> &marketPairArray, std::vector<Coin*> &coinArray)
+	void AuditLevelPath::AuditLoadedGoodOrder0(StringBuilder *sb)
+	{
+		double value = 0.0;
+		int market = 9909;
+		int orderSide = 2;
+		int amountType = 2;
+		int percision = 10;
+		int toCoinId = coinArray.size();
+
+
+		SavePathStep::GetPathStep(0, value, market, orderSide, amountType, percision, toCoinId);
+
+		//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
+
+		if (market < 999)
 		{
-			this->marketPairArray = marketPairArray;
-			this->coinArray = coinArray;
+			sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
+		}
+		else
+		{
+			return;
 		}
 
-		void AuditLoadedGoodOrder0(StringBuilder *sb)
+		AuditLoadedGoodOrder1(sb);
+
+	}
+
+	void AuditLevelPath::AuditLoadedGoodOrder1(StringBuilder *sb)
+	{
+		double value = 0.0;
+		int market = 9909;
+		int orderSide = 2;
+		int amountType = 2;
+		int percision = 10;
+		int toCoinId = coinArray.size();
+
+		SavePathStep::GetPathStep(1, value, market, orderSide, amountType, percision, toCoinId);
+
+		//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
+		if (market < 999)
 		{
-			double value = 0.0;
-			int market = 9909;
-			int orderSide = 2;
-			int amountType = 2;
-			int percision = 10;
-			int toCoinId = coinArray.size();
-
-
-			SavePathStep::GetPathStep(0, value, market, orderSide, amountType, percision, toCoinId);
-
-			//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
-
-			if (market < 999)
-			{
-				sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
-			}
-			else
-			{
-				return;
-			}
-
-			AuditLoadedGoodOrder1(sb);
-
+			sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
 		}
 
-		void AuditLoadedGoodOrder1(StringBuilder *sb)
+		AuditLoadedGoodOrder2(sb);
+	}
+
+	void AuditLevelPath::AuditLoadedGoodOrder2(StringBuilder *sb)
+	{
+		double value = 0.0;
+		int market = 9909;
+		int orderSide = 2;
+		int amountType = 2;
+		int percision = 10;
+		int toCoinId = coinArray.size();
+
+		SavePathStep::GetPathStep(2, value, market, orderSide, amountType, percision, toCoinId);
+
+		//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
+		if (market < 999)
 		{
-			double value = 0.0;
-			int market = 9909;
-			int orderSide = 2;
-			int amountType = 2;
-			int percision = 10;
-			int toCoinId = coinArray.size();
-
-			SavePathStep::GetPathStep(1, value, market, orderSide, amountType, percision, toCoinId);
-
-			//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
-			if (market < 999)
-			{
-				sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
-			}
-
-			AuditLoadedGoodOrder2(sb);
+			sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
 		}
 
-		void AuditLoadedGoodOrder2(StringBuilder *sb)
+		AuditLoadedGoodOrder3(sb);
+	}
+
+	void AuditLevelPath::AuditLoadedGoodOrder3(StringBuilder *sb)
+	{
+		double value = 0.0;
+		int market = 9909;
+		int orderSide = 2;
+		int amountType = 2;
+		int percision = 10;
+		int toCoinId = coinArray.size();
+
+		SavePathStep::GetPathStep(3, value, market, orderSide, amountType, percision, toCoinId);
+
+		//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
+		if (market < 999)
 		{
-			double value = 0.0;
-			int market = 9909;
-			int orderSide = 2;
-			int amountType = 2;
-			int percision = 10;
-			int toCoinId = coinArray.size();
-
-			SavePathStep::GetPathStep(2, value, market, orderSide, amountType, percision, toCoinId);
-
-			//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
-			if (market < 999)
-			{
-				sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
-			}
-
-			AuditLoadedGoodOrder3(sb);
+			sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
 		}
 
-		void AuditLoadedGoodOrder3(StringBuilder *sb)
+		AuditLoadedGoodOrder4(sb);
+	}
+
+	void AuditLevelPath::AuditLoadedGoodOrder4(StringBuilder *sb)
+	{
+		double value = 0.0;
+		int market = 9909;
+		int orderSide = 2;
+		int amountType = 2;
+		int percision = 10;
+		int toCoinId = coinArray.size();
+
+		SavePathStep::GetPathStep(4, value, market, orderSide, amountType, percision, toCoinId);
+
+		//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
+		if (market < 999)
 		{
-			double value = 0.0;
-			int market = 9909;
-			int orderSide = 2;
-			int amountType = 2;
-			int percision = 10;
-			int toCoinId = coinArray.size();
+			sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
+		}
+	}
 
-			SavePathStep::GetPathStep(3, value, market, orderSide, amountType, percision, toCoinId);
+	int AuditLevelPath::AuditLoadedGoodOrder(int index)
+	{
+		double value = 0.0;
+		int market = 9909;
+		int orderSide = 2;
+		int amountType = 2;
+		int percision = 10;
+		int toCoinId = coinArray.size();
 
-			//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
-			if (market < 999)
-			{
-				sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
-			}
 
-			AuditLoadedGoodOrder4(sb);
+		SavePathStep::GetPathStep(index, value, market, orderSide, amountType, percision, toCoinId);
+
+		if (market > 900)
+		{
+			return 0;
 		}
 
-		void AuditLoadedGoodOrder4(StringBuilder *sb)
-		{
-			double value = 0.0;
-			int market = 9909;
-			int orderSide = 2;
-			int amountType = 2;
-			int percision = 10;
-			int toCoinId = coinArray.size();
+		//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
 
-			SavePathStep::GetPathStep(4, value, market, orderSide, amountType, percision, toCoinId);
+		++index;
+		AuditLoadedGoodOrder(index);
 
-			//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
-			if (market < 999)
-			{
-				sb->appendLine(L"placing order " + std::to_wstring(orderSide) + L" " + std::to_wstring(amountType) + L" " + marketPairArray[market]->Symbol + L" percision " + std::to_wstring(percision));
-			}
-		}
-
-		int AuditLoadedGoodOrder(int index = 0)
-		{
-			double value = 0.0;
-			int market = 9909;
-			int orderSide = 2;
-			int amountType = 2;
-			int percision = 10;
-			int toCoinId = coinArray.size();
-
-
-			SavePathStep::GetPathStep(index, value, market, orderSide, amountType, percision, toCoinId);
-
-			if (market > 900)
-			{
-				return 0;
-			}
-
-			//Log.Information("placing order " + orderSide + " " + amountType + " " + marketPairArray[market].Symbol + " percision " + percision);
-
-			++index;
-			AuditLoadedGoodOrder(index);
-
-			return index;
-		}
-
-
-	};
+		return index;
+	}
 }

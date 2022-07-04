@@ -1,6 +1,4 @@
-﻿
-
-export module stringhelper;
+﻿#pragma once
 
 //----------------------------------------------------------------------------------------
 //	Copyright © 2004 - 2022 Tangible Software Solutions, Inc.
@@ -9,15 +7,15 @@ export module stringhelper;
 //	This class is used to replace some string methods, including
 //	conversions to or from strings.
 //----------------------------------------------------------------------------------------
-import <string>;
-import <sstream>;
-import <vector>;
-import <stdexcept>;
-import <cctype>;
-import <algorithm>;
-import <codecvt>;
+#include <string>
+#include <sstream>
+#include <vector>
+#include <stdexcept>
+#include <cctype>
+#include <algorithm>
+#include <codecvt>
 
-export class StringHelper
+class StringHelper
 {
 public:
 	static std::wstring toLower(std::wstring source)

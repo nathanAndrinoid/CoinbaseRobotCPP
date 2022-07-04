@@ -1,25 +1,15 @@
-﻿export module MarketSaveState;
-
-import MarketRateState;
-import <vector>;
+﻿#include "MarketSaveState.h"
 
 namespace Robot::Common::Models
 {
-	export class MarketSaveState
+
+	std::vector<MarketRateState*> MarketSaveState::getMarketRates() const
 	{
-	private:
-		std::vector<MarketRateState*> marketRates;
+		return marketRates;
+	}
 
-	public:
-		std::vector<MarketRateState*> getMarketRates() const
-		{
-			return marketRates;
-		}
-		void setMarketRates(const std::vector<MarketRateState*> &value)
-		{
-			marketRates = value;
-		}
-	};
-
-
+	void MarketSaveState::setMarketRates(const std::vector<MarketRateState*> &value)
+	{
+		marketRates = value;
+	}
 }

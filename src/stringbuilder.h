@@ -1,6 +1,4 @@
-﻿
-
-export module stringbuilder;
+﻿#pragma once
 
 //----------------------------------------------------------------------------------------
 //	Copyright © 2004 - 2022 Tangible Software Solutions, Inc.
@@ -8,10 +6,10 @@ export module stringbuilder;
 //
 //	This class is used to replace the .NET StringBuilder in C++.
 //----------------------------------------------------------------------------------------
-import <string>;
-import <sstream>;
+#include <string>
+#include <sstream>
 
-export class StringBuilder
+class StringBuilder
 {
 private:
 	std::wstring privateString;
