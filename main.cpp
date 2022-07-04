@@ -43,6 +43,8 @@ int parallel_sum(RandomIt beg, RandomIt end)
 int main() {
 
 
+
+
       Auth auth("2e506aa3ec83fb4164e50b79ff0a7fd4", "YN3Zf9zH+zdi53MiKBmjWq267/j+BZQkVt/RXUNyTW+jj2TzT5m58XgTuH1LAvzApvQeaOPkZ7aOhu5WkS828A==", "tzi4cbvjyt", Auth::Mode::LIVE);
 
       std::vector<responses::product> products = marketdata::products::getProducts(auth);
