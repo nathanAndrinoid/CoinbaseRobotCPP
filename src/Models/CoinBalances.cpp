@@ -1,11 +1,5 @@
-﻿//====================================================================================================
-//The Free Edition of C# to C++ Converter limits conversion output to 100 lines per file.
-
-//To purchase the Premium Edition, visit our website:
-//https://www.tangiblesoftwaresolutions.com/order/order-csharp-to-cplus.html
-//====================================================================================================
-
-#include "CoinBalances.h"
+﻿#include "CoinBalances.h"
+#include "../Helpers/LoadCoinBalanceHelper.h"
 #include "../Helpers/CoinBalanceHelper.h"
 
 namespace Robot::Common::Models
@@ -62,123 +56,16 @@ int CoinBalances::onOne = 0;
 
 	void CoinBalances::LoadSwitchBalances()
 	{
-		for (int i = 0; i < CoinCount; ++i)
-		{
-			liveCoinBalances[i] = zero;
-		}
-
-		controlAccessor->Read<int>(0, onOne);
-
-		int index = 0;
-		bool readFirst = false;
-		bool readLast = false;
-
-		for (int loop = 0; loop < 1000; ++loop)
-		{
-			int iFromId = 0;
-			double iFromAmount = 0.0;
-			int iToId = 0;
-			double iToAmount = 0.0;
-			index = CoinBalanceHelper::ObjectRead(dataAccessor[onOne], index, iFromId, iFromAmount, iToId, iToAmount);
-
-			if (iFromId != CoinCount && iToId != CoinCount)
-			{
-				readFirst = true;
-				liveCoinBalances[iFromId] -= iFromAmount;
-				liveCoinBalances[iToId] += iToAmount;
-			}
-			else if (iFromId != CoinCount && iToId == CoinCount)
-			{
-				readFirst = true;
-				liveCoinBalances[iFromId] -= iFromAmount;
-			}
-			else if (iFromId == CoinCount && iToId != CoinCount)
-			{
-				readFirst = true;
-				liveCoinBalances[iToId] += iToAmount;
-			}
-			else
-			{
-				if (readFirst)
-				{
-					readLast = true;
-				}
-			}
-
-			if (readFirst && readLast)
-			{
-				break;
-			}
-		}
-
-		index = 0;
-		int onOnetemp = onOne == 0 ? 1 : 0;
-
-		for (int loop = 0; loop < 1000; ++loop)
-		{
-			index = CoinBalanceHelper::ObjectWrite(dataAccessor[onOnetemp], index, CoinCount, zero, CoinCount, zero);
-
-		}
-
-		index = 0;
-		double value = 0.0;
-
-		for (int i = 0; i < CoinCount; ++i)
-		{
-			value = liveCoinBalances[i];
-
-			if (value > zero)
-			{
-				index = CoinBalanceHelper::ObjectWrite(dataAccessor[onOnetemp], index, CoinCount, zero, i, value);
-			}
-		}
-
-		int switchFlag = 0;
-		controlAccessor->Write<int>(0, onOnetemp);
-		controlAccessor->Write<int>(4, switchFlag);
+		LoadCoinBalanceHelper::LoadSwitchBalances(CoinCount, zero, liveCoinBalances, onOne, dataAccessor, controlAccessor);
 	}
 
 	int CoinBalances::LoadLedgerBalances()
 	{
-		for (int i = 0; i < CoinCount; ++i)
-		{
-			liveCoinBalances[i] = zero;
-		}
+		return LoadCoinBalanceHelper::LoadLedgerBalances(FileSize, ObjectSize, CoinCount, zero, liveCoinBalances, onOne, dataAccessor, controlAccessor);
+	}
 
-		bool readFirst = false;
-		bool readLast = false;
-		int lastIndex = -1;
-		controlAccessor->Read<int>(0, onOne);
-		int index = 0;
-
-		for (int loop = 0; loop < 1000; ++loop)
-		{
-			int iFromId = 0;
-			double iFromAmount = 0.0;
-			int iToId = 0;
-			double iToAmount = 0.0;
-			index = CoinBalanceHelper::ObjectRead(dataAccessor[onOne], index, iFromId, iFromAmount, iToId, iToAmount);
-
-			if (iFromId != CoinCount && iToId != CoinCount)
-			{
-				readFirst = true;
-				liveCoinBalances[iFromId] -= iFromAmount;
-				liveCoinBalances[iToId] += iToAmount;
-			}
-			else if (iFromId != CoinCount && iToId == CoinCount)
-			{
-				readFirst = true;
-				liveCoinBalances[iFromId] -= iFromAmount;
-			}
-			else if (iFromId == CoinCount && iToId != CoinCount)
-			{
-				readFirst = true;
-				liveCoinBalances[iToId] += iToAmount;
-			}
-
-//====================================================================================================
-//End of the allowed output for the Free Edition of C# to C++ Converter.
-
-//To purchase the Premium Edition, visit our website:
-//https://www.tangiblesoftwaresolutions.com/order/order-csharp-to-cplus.html
-//====================================================================================================
+	void CoinBalances::ErraseMapStorrage()
+	{
+		CoinBalanceHelper::ErraseMapStorrage(dataAccessor, CoinCount, zero);
+	}
+}

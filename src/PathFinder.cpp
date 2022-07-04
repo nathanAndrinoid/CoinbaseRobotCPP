@@ -1,5 +1,4 @@
 ﻿#include "PathFinder.h"
-#include "Models/MarketRate.h"
 #include "Models/SavePathStep.h"
 #include "Models/CoinBalances.h"
 
@@ -23,7 +22,7 @@ namespace Robot::PathFinder
 		double dollar = 1.0;
 		CoinCount = coinArray.size();
 
-		startAccessor = MarketRate::ConfigureMarketRateStorage(L"marketRates", marketCount, MemoryMappedFileAccess::ReadWrite);
+		//startAccessor = MarketRate.ConfigureMarketRateStorage("marketRates", marketCount, MemoryMappedFileAccess.ReadWrite);
 
 		coinTests = std::vector<CoinTest*>(coinArray.size());
 		delay(2000);

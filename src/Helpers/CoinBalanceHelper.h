@@ -1,5 +1,7 @@
 ﻿#pragma once
 
+#include <vector>
+
 namespace Robot::Common::Models
 {
 	class CoinBalanceHelper final
@@ -97,28 +99,8 @@ namespace Robot::Common::Models
 		//        liveCoinBalances[i] = zero;
 		//}
 
-		//public static void ErraseMapStorrage()
-		//{
-		//    int index = 0;
-
-		//    for (int loop = 0; loop < 1000; ++loop)
-		//    {
-		//        dataAccessor[0].Write<int>(index, ref CoinCount);
-		//        dataAccessor[1].Write<int>(index, ref CoinCount);
-		//        index += 4;
-		//        dataAccessor[0].Write<double>(index, ref zero);
-		//        dataAccessor[1].Write<double>(index, ref zero);
-		//        index += 8;
-		//        dataAccessor[0].Write<int>(index, ref CoinCount);
-		//        dataAccessor[1].Write<int>(index, ref CoinCount);
-		//        index += 4;
-		//        dataAccessor[0].Write<double>(index, ref zero);
-		//        dataAccessor[1].Write<double>(index, ref zero);
-		//        index += 8;
-
-		//    }
-
-		//}
+	public:
+		static void ErraseMapStorrage(std::vector<MemoryMappedViewAccessor*> &dataAccessor, int CoinCount, double zero);
 
 		//public static bool WaitingForSwitch()
 		//{
@@ -146,7 +128,6 @@ namespace Robot::Common::Models
 		//    controlAccessor.Write<int>(4, ref switchFlag);
 		//}
 
-	public:
 		static int ObjectWrite(MemoryMappedViewAccessor *dataAccessor, int index, int coinId1, double value1, int coinId2, double value2);
 
 		static int ObjectRead(MemoryMappedViewAccessor *dataAccessor, int index, int &coinId1, double &value1, int &coinId2, double &value2);

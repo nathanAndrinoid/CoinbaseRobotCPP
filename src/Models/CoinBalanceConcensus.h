@@ -7,7 +7,7 @@
 
 using namespace Robot::Common::Models;
 
-namespace CoinbaseRobotTranlator::Models
+namespace Robot::Common::Models
 {
 	class CoinBalanceConcensus final
 	{

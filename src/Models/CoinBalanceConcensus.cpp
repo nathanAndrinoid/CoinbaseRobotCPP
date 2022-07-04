@@ -10,7 +10,7 @@
 
 using namespace Robot::Common::Models;
 
-namespace CoinbaseRobotTranlator::Models
+namespace Robot::Common::Models
 {
 
 MemoryMappedFile *CoinBalanceConcensus::consensusFileMap;

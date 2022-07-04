@@ -34,5 +34,7 @@ namespace Robot::Common::Models
 		static void LoadSwitchBalances();
 
 		static int LoadLedgerBalances();
+
+		static void ErraseMapStorrage();
 	};
 }

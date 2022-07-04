@@ -27,11 +27,11 @@ namespace Robot::Common::Models
 
 		MarketRate(const MarketRate &mr);
 
-		static MemoryMappedViewAccessor *ConfigureMarketRateStorage(const std::wstring &fileName, int marketCount, std::optional<MemoryMappedFileAccess> &fileAccess = std::nullopt, bool initialSetup = false);
+		MemoryMappedViewAccessor *ConfigureMarketRateStorage(const std::wstring &fileName, int marketCount, std::optional<MemoryMappedFileAccess> &fileAccess = std::nullopt, bool initialSetup = false);
 
-		static void LoadMarketArrayFromFile(MemoryMappedViewAccessor *startAccessor, std::vector<MarketRate*> &marketRates);
+		void LoadMarketArrayFromFile(MemoryMappedViewAccessor *startAccessor, std::vector<MarketRate*> &marketRates);
 
-		static MemoryMappedViewAccessor *GetAddtionalAccessor(std::optional<MemoryMappedFileAccess> &fileAccess = std::nullopt, std::optional<long long> &index = std::nullopt);
+		MemoryMappedViewAccessor *GetAddtionalAccessor(std::optional<MemoryMappedFileAccess> &fileAccess = std::nullopt, std::optional<long long> &index = std::nullopt);
 
 		bool ReadMarketRate(MemoryMappedViewAccessor *accessor, long long index); //, long? second = null)
 

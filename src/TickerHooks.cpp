@@ -19,7 +19,7 @@ ManualResetEvent *const TickerHooks::ExitEvent = new ManualResetEvent(false);
 		_marketData->LoadMarketDataToMap();
 		marketCount = _marketData->MarketPairArray.size();
 
-		_startAccessor = MarketRate::ConfigureMarketRateStorage(L"marketRates", marketCount, MemoryMappedFileAccess::ReadWrite);
+		//_startAccessor = MarketRate.ConfigureMarketRateStorage("marketRates", marketCount, MemoryMappedFileAccess.ReadWrite);
 		_marketRates = std::vector<MarketRate*>(marketCount);
 
 		for (long long i = 0; i < marketCount; ++i)

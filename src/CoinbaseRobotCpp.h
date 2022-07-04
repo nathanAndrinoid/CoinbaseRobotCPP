@@ -10,9 +10,10 @@
 #include <unordered_map>
 #include <vector>
 
+using namespace Robot::Common::Helpers;
 using namespace Robot::Common::Models;
 
-namespace CoinbaseRobotTranlator
+namespace Robot::CoinbaseCpp
 {
 	class CoinbaseRobotCpp
 	{
@@ -26,7 +27,6 @@ namespace CoinbaseRobotTranlator
 		MarketRateState *marketRateState;
 		std::vector<Coin*> coins;
 		std::unordered_map<int, Coin*> coinDict;
-		std::unordered_map<int, Coin*> tempCoinDict;
 		std::unordered_map<int, MarketPair*> marketDict;
 		std::vector<MarketPair*> marketPairArray;
 		BinaryFormatter *binaryFormatter;
@@ -34,11 +34,10 @@ namespace CoinbaseRobotTranlator
 		std::vector<MarketRate*> marketRates;
 		MarketData *marketData;
 		std::vector<Coin*> coinArray;
-		static ManualResetEvent *const ExitEvent;
 
-		static const std::wstring API_KEY;
-		static const std::wstring API_SECRET;
-		static const std::wstring API_PASSPHRASE;
+		const std::wstring API_KEY = L"2e506aa3ec83fb4164e50b79ff0a7fd4";
+		const std::wstring API_SECRET = L"YN3Zf9zH+zdi53MiKBmjWq267/j+BZQkVt/RXUNyTW+jj2TzT5m58XgTuH1LAvzApvQeaOPkZ7aOhu5WkS828A==";
+		const std::wstring API_PASSPHRASE = L"tzi4cbvjyt";
 
 	public:
 		virtual ~CoinbaseRobotCpp()
@@ -50,6 +49,18 @@ namespace CoinbaseRobotTranlator
 			delete marketData;
 		}
 
-		CoinbaseRobotCpp();
+		CoinbaseRobotCpp(StringBuilder *sb);
+
+	private:
+		void InitMarketRates();
+		
+		std::vector<Coin*> LoadCoinAndMarketLists(MarketData* marketData, std::vector<MarketPair*>& marketPairArray);
+
+		void CreateLinkedCoinsAndMarketPair(const std::wstring& marketSymbol, int marketIndex, Product* item); //, int precision)
+
+		int CountDecimalDigits(Decimal n);
+
+		Coin* FindOrCreateCoin(const std::wstring& coinSymbol, std::unordered_map<int, Coin*>& coinDict, std::vector<Coin*>& coins);
+
 	};
 }
