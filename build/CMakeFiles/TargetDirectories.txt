@@ -1,0 +1,3 @@
+/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles/rebuild_cache.dir
+/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles/edit_cache.dir
+/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles/coinbase_robot_ex.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/coinbase_robot_ex.dir/main.cpp.o -o coinbase_robot_ex  /usr/local/lib/libcbpro++.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lpthread 

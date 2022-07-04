@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mranderson/CoinbaseRobotCPP/main.cpp
+iostream
+-
+cbpro++/auth.h
+-
+cbpro++/marketdata/products.h
+-
+iostream
+-
+vector
+-
+algorithm
+-
+numeric
+-
+future
+-
+string
+-
+mutex
+-
+
