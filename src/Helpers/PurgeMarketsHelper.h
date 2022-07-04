@@ -14,6 +14,6 @@ namespace Robot::Common::Helpers
 	class PurgeMarketsHelper final
 	{
 	public:
-		static std::vector<MarketPair*> Purge(std::vector<Coin*> &coins, int marketCount, std::unordered_map<int, MarketPair*> &marketDict, std::unordered_map<std::wstring, MarketRate*> &marketRateDict, std::unordered_map<int, Coin*> &coinDict);
+		static void Purge(std::vector<Coin*> &coins, int marketCount, std::unordered_map<int, void*> &marketDict, std::unordered_map<std::wstring, void*> &marketRateDict, std::unordered_map<int, void*> &coinDict);
 	};
 }

@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <ctime>
 
 namespace Robot::Common::Models
 {
@@ -10,6 +11,6 @@ namespace Robot::Common::Models
 		int marketPairIndex = 0;
 		double askPrice = 0;
 		double bidPrice = 0;
-		DateTime lastMarketUpdate;
+		time_t lastMarketUpdate;
 	};
 }

@@ -16,10 +16,10 @@ namespace Robot::Common::Models
 		int Id = 0;
 		std::wstring Symbol;
 		double minSize = 0;
-		std::vector<MarketPair*> QuoteMarkets;
-		std::vector<MarketPair*> BaseMarkets;
+		std::vector<void*> QuoteMarkets;
+		std::vector<void*> BaseMarkets;
 
-		PathStep *pathStep;
+		void *pathStep;
 		double dollarValue = 0.0;
 		double nativeValue0 = 0.0;
 		double nativeValue1 = 0.0;
@@ -27,7 +27,7 @@ namespace Robot::Common::Models
 		double nativeValue3 = 0.0;
 		double nativeValue4 = 0.0;
 		double nativeValue5 = 0.0;
-		std::vector<std::vector<PathStep*>> bestLinks;
+		//std::vector<std::vector<PathStep*>> bestLinks;
 		std::vector<double> bestValues;
 		double Balance = 0;
 		double rateChange = 0;
@@ -35,11 +35,11 @@ namespace Robot::Common::Models
 
 		virtual ~Coin()
 		{
-			delete pathStep;
+			//delete (PathStep*)pathStep;
 		}
 
 		Coin();
-		Coin(Coin *sourceCoin, bool deepClone = false, std::vector<MarketPair*> &marketPairs = std::vector<MarketPair*>());
+		Coin(Coin *sourceCoin, bool deepClone = false);//, std::vector<MarketPair*> &marketPairs = std::vector<MarketPair*>());
 
 		void CopyIn(Coin *sourceCoin);
 	};

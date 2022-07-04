@@ -18,7 +18,7 @@ namespace Robot::Common::Helpers
 	{
 
 	public:
-		double TradeSingle(MemoryMappedViewAccessor *accessor, int id, double toDollarValue, double balance, StringBuilder *sb, Coin *indexCoin, std::unordered_map<int, Coin*> &coinDict, std::vector<MarketRate*> &marketRates);
+		double TradeSingle();//MemoryMappedViewAccessor *accessor, int id, double toDollarValue, double balance, StringBuilder *sb, Coin *indexCoin, std::unordered_map<int, Coin*> &coinDict, std::vector<MarketRate*> &marketRates);
 
 		void FindDollarValues(std::vector<Coin*> &coinArray, Coin *indexUSD, std::vector<MarketRate*> &marketRates, std::vector<double> &dollarBestValues, std::vector<std::vector<Coin*>> &dolarBestLinks, std::unordered_map<int, Coin*> &coinDict);
 
@@ -29,7 +29,7 @@ namespace Robot::Common::Helpers
 
 		void SetBestPathStore(std::vector<PathStep*> &stepArray, Coin *lc, int startLength, int index);
 
-		void SetSingleTradeFirst(MemoryMappedViewAccessor *accessor, Coin *indexCoin, Coin *nextCoin, StringBuilder *sb, std::vector<MarketRate*> &marketRates);
+		void SetSingleTradeFirst();//MemoryMappedViewAccessor *accessor, Coin *indexCoin, Coin *nextCoin, StringBuilder *sb, std::vector<MarketRate*> &marketRates);
 
 		void ZeroOutCoins(std::unordered_map<int, Coin*> &coinDict);
 

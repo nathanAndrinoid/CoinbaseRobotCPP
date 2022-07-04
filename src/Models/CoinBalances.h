@@ -11,10 +11,10 @@ namespace Robot::Common::Models
 	class CoinBalances final
 	{
 	private:
-		static MemoryMappedFile *controlFileMap;
-		static MemoryMappedViewAccessor *controlAccessor;
-		static std::vector<MemoryMappedFile*> dataFileMap;
-		static std::vector<MemoryMappedViewAccessor*> dataAccessor;
+		// static MemoryMappedFile *controlFileMap;
+		// static MemoryMappedViewAccessor *controlAccessor;
+		// static std::vector<MemoryMappedFile*> dataFileMap;
+		// static std::vector<MemoryMappedViewAccessor*> dataAccessor;
 		static int FileSize;
 		static int ObjectSize;
 		static int CoinCount;
@@ -29,7 +29,7 @@ namespace Robot::Common::Models
 		static int onOne;
 
 	public:
-		static void InitCoinBalances(const std::wstring &fileName, int coinCount, std::unordered_map<int, int> &cid, std::vector<Coin*> &ca = std::vector<Coin*>());
+		static void InitCoinBalances();//const std::wstring &fileName, int coinCount, std::unordered_map<int, int> &cid, std::vector<Coin*> &ca = std::vector<Coin*>());
 
 		static void LoadSwitchBalances();
 

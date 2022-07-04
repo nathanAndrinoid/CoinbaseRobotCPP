@@ -14,7 +14,7 @@ namespace Robot::Common::Models
 	{
 
 	public:
-		void BuildBestPathToCoinMarket4(Coin *cEnd, double fee, std::vector<MarketRate*> &marketRates, std::unordered_map<int, PathStep*> &stepBestDict0, std::unordered_map<int, PathStep*> &stepBestDict1, std::unordered_map<int, PathStep*> &stepBestDict2, std::unordered_map<int, PathStep*> &stepBestDict3, std::unordered_map<int, PathStep*> &stepBestDict4);
+		void BuildBestPathToCoinMarket4();//Coin *cEnd, double fee, std::vector<MarketRate*> &marketRates, std::unordered_map<int, PathStep*> &stepBestDict0, std::unordered_map<int, PathStep*> &stepBestDict1, std::unordered_map<int, PathStep*> &stepBestDict2, std::unordered_map<int, PathStep*> &stepBestDict3, std::unordered_map<int, PathStep*> &stepBestDict4);
 
 	};
 }

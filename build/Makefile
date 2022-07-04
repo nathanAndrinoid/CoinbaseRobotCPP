@@ -169,6 +169,897 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/CoinbaseRobotCpp.o: src/CoinbaseRobotCpp.cpp.o
+
+.PHONY : src/CoinbaseRobotCpp.o
+
+# target to build an object file
+src/CoinbaseRobotCpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.o
+.PHONY : src/CoinbaseRobotCpp.cpp.o
+
+src/CoinbaseRobotCpp.i: src/CoinbaseRobotCpp.cpp.i
+
+.PHONY : src/CoinbaseRobotCpp.i
+
+# target to preprocess a source file
+src/CoinbaseRobotCpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.i
+.PHONY : src/CoinbaseRobotCpp.cpp.i
+
+src/CoinbaseRobotCpp.s: src/CoinbaseRobotCpp.cpp.s
+
+.PHONY : src/CoinbaseRobotCpp.s
+
+# target to generate assembly for a file
+src/CoinbaseRobotCpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.s
+.PHONY : src/CoinbaseRobotCpp.cpp.s
+
+src/Helpers/Base26.o: src/Helpers/Base26.cpp.o
+
+.PHONY : src/Helpers/Base26.o
+
+# target to build an object file
+src/Helpers/Base26.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.o
+.PHONY : src/Helpers/Base26.cpp.o
+
+src/Helpers/Base26.i: src/Helpers/Base26.cpp.i
+
+.PHONY : src/Helpers/Base26.i
+
+# target to preprocess a source file
+src/Helpers/Base26.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.i
+.PHONY : src/Helpers/Base26.cpp.i
+
+src/Helpers/Base26.s: src/Helpers/Base26.cpp.s
+
+.PHONY : src/Helpers/Base26.s
+
+# target to generate assembly for a file
+src/Helpers/Base26.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.s
+.PHONY : src/Helpers/Base26.cpp.s
+
+src/Helpers/CoinBalanceHelper.o: src/Helpers/CoinBalanceHelper.cpp.o
+
+.PHONY : src/Helpers/CoinBalanceHelper.o
+
+# target to build an object file
+src/Helpers/CoinBalanceHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.o
+.PHONY : src/Helpers/CoinBalanceHelper.cpp.o
+
+src/Helpers/CoinBalanceHelper.i: src/Helpers/CoinBalanceHelper.cpp.i
+
+.PHONY : src/Helpers/CoinBalanceHelper.i
+
+# target to preprocess a source file
+src/Helpers/CoinBalanceHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.i
+.PHONY : src/Helpers/CoinBalanceHelper.cpp.i
+
+src/Helpers/CoinBalanceHelper.s: src/Helpers/CoinBalanceHelper.cpp.s
+
+.PHONY : src/Helpers/CoinBalanceHelper.s
+
+# target to generate assembly for a file
+src/Helpers/CoinBalanceHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.s
+.PHONY : src/Helpers/CoinBalanceHelper.cpp.s
+
+src/Helpers/CoinTradeHelper.o: src/Helpers/CoinTradeHelper.cpp.o
+
+.PHONY : src/Helpers/CoinTradeHelper.o
+
+# target to build an object file
+src/Helpers/CoinTradeHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.o
+.PHONY : src/Helpers/CoinTradeHelper.cpp.o
+
+src/Helpers/CoinTradeHelper.i: src/Helpers/CoinTradeHelper.cpp.i
+
+.PHONY : src/Helpers/CoinTradeHelper.i
+
+# target to preprocess a source file
+src/Helpers/CoinTradeHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.i
+.PHONY : src/Helpers/CoinTradeHelper.cpp.i
+
+src/Helpers/CoinTradeHelper.s: src/Helpers/CoinTradeHelper.cpp.s
+
+.PHONY : src/Helpers/CoinTradeHelper.s
+
+# target to generate assembly for a file
+src/Helpers/CoinTradeHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.s
+.PHONY : src/Helpers/CoinTradeHelper.cpp.s
+
+src/Helpers/LoadCoinBalanceHelper.o: src/Helpers/LoadCoinBalanceHelper.cpp.o
+
+.PHONY : src/Helpers/LoadCoinBalanceHelper.o
+
+# target to build an object file
+src/Helpers/LoadCoinBalanceHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.o
+.PHONY : src/Helpers/LoadCoinBalanceHelper.cpp.o
+
+src/Helpers/LoadCoinBalanceHelper.i: src/Helpers/LoadCoinBalanceHelper.cpp.i
+
+.PHONY : src/Helpers/LoadCoinBalanceHelper.i
+
+# target to preprocess a source file
+src/Helpers/LoadCoinBalanceHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.i
+.PHONY : src/Helpers/LoadCoinBalanceHelper.cpp.i
+
+src/Helpers/LoadCoinBalanceHelper.s: src/Helpers/LoadCoinBalanceHelper.cpp.s
+
+.PHONY : src/Helpers/LoadCoinBalanceHelper.s
+
+# target to generate assembly for a file
+src/Helpers/LoadCoinBalanceHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.s
+.PHONY : src/Helpers/LoadCoinBalanceHelper.cpp.s
+
+src/Helpers/LoadCoinsAndMarketsHelper.o: src/Helpers/LoadCoinsAndMarketsHelper.cpp.o
+
+.PHONY : src/Helpers/LoadCoinsAndMarketsHelper.o
+
+# target to build an object file
+src/Helpers/LoadCoinsAndMarketsHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.o
+.PHONY : src/Helpers/LoadCoinsAndMarketsHelper.cpp.o
+
+src/Helpers/LoadCoinsAndMarketsHelper.i: src/Helpers/LoadCoinsAndMarketsHelper.cpp.i
+
+.PHONY : src/Helpers/LoadCoinsAndMarketsHelper.i
+
+# target to preprocess a source file
+src/Helpers/LoadCoinsAndMarketsHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.i
+.PHONY : src/Helpers/LoadCoinsAndMarketsHelper.cpp.i
+
+src/Helpers/LoadCoinsAndMarketsHelper.s: src/Helpers/LoadCoinsAndMarketsHelper.cpp.s
+
+.PHONY : src/Helpers/LoadCoinsAndMarketsHelper.s
+
+# target to generate assembly for a file
+src/Helpers/LoadCoinsAndMarketsHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.s
+.PHONY : src/Helpers/LoadCoinsAndMarketsHelper.cpp.s
+
+src/Helpers/OrderHelper.o: src/Helpers/OrderHelper.cpp.o
+
+.PHONY : src/Helpers/OrderHelper.o
+
+# target to build an object file
+src/Helpers/OrderHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.o
+.PHONY : src/Helpers/OrderHelper.cpp.o
+
+src/Helpers/OrderHelper.i: src/Helpers/OrderHelper.cpp.i
+
+.PHONY : src/Helpers/OrderHelper.i
+
+# target to preprocess a source file
+src/Helpers/OrderHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.i
+.PHONY : src/Helpers/OrderHelper.cpp.i
+
+src/Helpers/OrderHelper.s: src/Helpers/OrderHelper.cpp.s
+
+.PHONY : src/Helpers/OrderHelper.s
+
+# target to generate assembly for a file
+src/Helpers/OrderHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.s
+.PHONY : src/Helpers/OrderHelper.cpp.s
+
+src/Helpers/ProcessHelper.o: src/Helpers/ProcessHelper.cpp.o
+
+.PHONY : src/Helpers/ProcessHelper.o
+
+# target to build an object file
+src/Helpers/ProcessHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.o
+.PHONY : src/Helpers/ProcessHelper.cpp.o
+
+src/Helpers/ProcessHelper.i: src/Helpers/ProcessHelper.cpp.i
+
+.PHONY : src/Helpers/ProcessHelper.i
+
+# target to preprocess a source file
+src/Helpers/ProcessHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.i
+.PHONY : src/Helpers/ProcessHelper.cpp.i
+
+src/Helpers/ProcessHelper.s: src/Helpers/ProcessHelper.cpp.s
+
+.PHONY : src/Helpers/ProcessHelper.s
+
+# target to generate assembly for a file
+src/Helpers/ProcessHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.s
+.PHONY : src/Helpers/ProcessHelper.cpp.s
+
+src/Helpers/PurgeMarketsHelper.o: src/Helpers/PurgeMarketsHelper.cpp.o
+
+.PHONY : src/Helpers/PurgeMarketsHelper.o
+
+# target to build an object file
+src/Helpers/PurgeMarketsHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.o
+.PHONY : src/Helpers/PurgeMarketsHelper.cpp.o
+
+src/Helpers/PurgeMarketsHelper.i: src/Helpers/PurgeMarketsHelper.cpp.i
+
+.PHONY : src/Helpers/PurgeMarketsHelper.i
+
+# target to preprocess a source file
+src/Helpers/PurgeMarketsHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.i
+.PHONY : src/Helpers/PurgeMarketsHelper.cpp.i
+
+src/Helpers/PurgeMarketsHelper.s: src/Helpers/PurgeMarketsHelper.cpp.s
+
+.PHONY : src/Helpers/PurgeMarketsHelper.s
+
+# target to generate assembly for a file
+src/Helpers/PurgeMarketsHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.s
+.PHONY : src/Helpers/PurgeMarketsHelper.cpp.s
+
+src/Models/AuditLevelPath.o: src/Models/AuditLevelPath.cpp.o
+
+.PHONY : src/Models/AuditLevelPath.o
+
+# target to build an object file
+src/Models/AuditLevelPath.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.o
+.PHONY : src/Models/AuditLevelPath.cpp.o
+
+src/Models/AuditLevelPath.i: src/Models/AuditLevelPath.cpp.i
+
+.PHONY : src/Models/AuditLevelPath.i
+
+# target to preprocess a source file
+src/Models/AuditLevelPath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.i
+.PHONY : src/Models/AuditLevelPath.cpp.i
+
+src/Models/AuditLevelPath.s: src/Models/AuditLevelPath.cpp.s
+
+.PHONY : src/Models/AuditLevelPath.s
+
+# target to generate assembly for a file
+src/Models/AuditLevelPath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.s
+.PHONY : src/Models/AuditLevelPath.cpp.s
+
+src/Models/Coin.o: src/Models/Coin.cpp.o
+
+.PHONY : src/Models/Coin.o
+
+# target to build an object file
+src/Models/Coin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.o
+.PHONY : src/Models/Coin.cpp.o
+
+src/Models/Coin.i: src/Models/Coin.cpp.i
+
+.PHONY : src/Models/Coin.i
+
+# target to preprocess a source file
+src/Models/Coin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.i
+.PHONY : src/Models/Coin.cpp.i
+
+src/Models/Coin.s: src/Models/Coin.cpp.s
+
+.PHONY : src/Models/Coin.s
+
+# target to generate assembly for a file
+src/Models/Coin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.s
+.PHONY : src/Models/Coin.cpp.s
+
+src/Models/CoinBalanceConcensus.o: src/Models/CoinBalanceConcensus.cpp.o
+
+.PHONY : src/Models/CoinBalanceConcensus.o
+
+# target to build an object file
+src/Models/CoinBalanceConcensus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.o
+.PHONY : src/Models/CoinBalanceConcensus.cpp.o
+
+src/Models/CoinBalanceConcensus.i: src/Models/CoinBalanceConcensus.cpp.i
+
+.PHONY : src/Models/CoinBalanceConcensus.i
+
+# target to preprocess a source file
+src/Models/CoinBalanceConcensus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.i
+.PHONY : src/Models/CoinBalanceConcensus.cpp.i
+
+src/Models/CoinBalanceConcensus.s: src/Models/CoinBalanceConcensus.cpp.s
+
+.PHONY : src/Models/CoinBalanceConcensus.s
+
+# target to generate assembly for a file
+src/Models/CoinBalanceConcensus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.s
+.PHONY : src/Models/CoinBalanceConcensus.cpp.s
+
+src/Models/CoinBalances.o: src/Models/CoinBalances.cpp.o
+
+.PHONY : src/Models/CoinBalances.o
+
+# target to build an object file
+src/Models/CoinBalances.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.o
+.PHONY : src/Models/CoinBalances.cpp.o
+
+src/Models/CoinBalances.i: src/Models/CoinBalances.cpp.i
+
+.PHONY : src/Models/CoinBalances.i
+
+# target to preprocess a source file
+src/Models/CoinBalances.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.i
+.PHONY : src/Models/CoinBalances.cpp.i
+
+src/Models/CoinBalances.s: src/Models/CoinBalances.cpp.s
+
+.PHONY : src/Models/CoinBalances.s
+
+# target to generate assembly for a file
+src/Models/CoinBalances.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.s
+.PHONY : src/Models/CoinBalances.cpp.s
+
+src/Models/CoinPathStore.o: src/Models/CoinPathStore.cpp.o
+
+.PHONY : src/Models/CoinPathStore.o
+
+# target to build an object file
+src/Models/CoinPathStore.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.o
+.PHONY : src/Models/CoinPathStore.cpp.o
+
+src/Models/CoinPathStore.i: src/Models/CoinPathStore.cpp.i
+
+.PHONY : src/Models/CoinPathStore.i
+
+# target to preprocess a source file
+src/Models/CoinPathStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.i
+.PHONY : src/Models/CoinPathStore.cpp.i
+
+src/Models/CoinPathStore.s: src/Models/CoinPathStore.cpp.s
+
+.PHONY : src/Models/CoinPathStore.s
+
+# target to generate assembly for a file
+src/Models/CoinPathStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.s
+.PHONY : src/Models/CoinPathStore.cpp.s
+
+src/Models/CoinPathTest0.o: src/Models/CoinPathTest0.cpp.o
+
+.PHONY : src/Models/CoinPathTest0.o
+
+# target to build an object file
+src/Models/CoinPathTest0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.o
+.PHONY : src/Models/CoinPathTest0.cpp.o
+
+src/Models/CoinPathTest0.i: src/Models/CoinPathTest0.cpp.i
+
+.PHONY : src/Models/CoinPathTest0.i
+
+# target to preprocess a source file
+src/Models/CoinPathTest0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.i
+.PHONY : src/Models/CoinPathTest0.cpp.i
+
+src/Models/CoinPathTest0.s: src/Models/CoinPathTest0.cpp.s
+
+.PHONY : src/Models/CoinPathTest0.s
+
+# target to generate assembly for a file
+src/Models/CoinPathTest0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.s
+.PHONY : src/Models/CoinPathTest0.cpp.s
+
+src/Models/CoinPathTest1.o: src/Models/CoinPathTest1.cpp.o
+
+.PHONY : src/Models/CoinPathTest1.o
+
+# target to build an object file
+src/Models/CoinPathTest1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.o
+.PHONY : src/Models/CoinPathTest1.cpp.o
+
+src/Models/CoinPathTest1.i: src/Models/CoinPathTest1.cpp.i
+
+.PHONY : src/Models/CoinPathTest1.i
+
+# target to preprocess a source file
+src/Models/CoinPathTest1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.i
+.PHONY : src/Models/CoinPathTest1.cpp.i
+
+src/Models/CoinPathTest1.s: src/Models/CoinPathTest1.cpp.s
+
+.PHONY : src/Models/CoinPathTest1.s
+
+# target to generate assembly for a file
+src/Models/CoinPathTest1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.s
+.PHONY : src/Models/CoinPathTest1.cpp.s
+
+src/Models/CoinPathTest2.o: src/Models/CoinPathTest2.cpp.o
+
+.PHONY : src/Models/CoinPathTest2.o
+
+# target to build an object file
+src/Models/CoinPathTest2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.o
+.PHONY : src/Models/CoinPathTest2.cpp.o
+
+src/Models/CoinPathTest2.i: src/Models/CoinPathTest2.cpp.i
+
+.PHONY : src/Models/CoinPathTest2.i
+
+# target to preprocess a source file
+src/Models/CoinPathTest2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.i
+.PHONY : src/Models/CoinPathTest2.cpp.i
+
+src/Models/CoinPathTest2.s: src/Models/CoinPathTest2.cpp.s
+
+.PHONY : src/Models/CoinPathTest2.s
+
+# target to generate assembly for a file
+src/Models/CoinPathTest2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.s
+.PHONY : src/Models/CoinPathTest2.cpp.s
+
+src/Models/CoinPathTest3.o: src/Models/CoinPathTest3.cpp.o
+
+.PHONY : src/Models/CoinPathTest3.o
+
+# target to build an object file
+src/Models/CoinPathTest3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.o
+.PHONY : src/Models/CoinPathTest3.cpp.o
+
+src/Models/CoinPathTest3.i: src/Models/CoinPathTest3.cpp.i
+
+.PHONY : src/Models/CoinPathTest3.i
+
+# target to preprocess a source file
+src/Models/CoinPathTest3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.i
+.PHONY : src/Models/CoinPathTest3.cpp.i
+
+src/Models/CoinPathTest3.s: src/Models/CoinPathTest3.cpp.s
+
+.PHONY : src/Models/CoinPathTest3.s
+
+# target to generate assembly for a file
+src/Models/CoinPathTest3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.s
+.PHONY : src/Models/CoinPathTest3.cpp.s
+
+src/Models/CoinPathTest4.o: src/Models/CoinPathTest4.cpp.o
+
+.PHONY : src/Models/CoinPathTest4.o
+
+# target to build an object file
+src/Models/CoinPathTest4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.o
+.PHONY : src/Models/CoinPathTest4.cpp.o
+
+src/Models/CoinPathTest4.i: src/Models/CoinPathTest4.cpp.i
+
+.PHONY : src/Models/CoinPathTest4.i
+
+# target to preprocess a source file
+src/Models/CoinPathTest4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.i
+.PHONY : src/Models/CoinPathTest4.cpp.i
+
+src/Models/CoinPathTest4.s: src/Models/CoinPathTest4.cpp.s
+
+.PHONY : src/Models/CoinPathTest4.s
+
+# target to generate assembly for a file
+src/Models/CoinPathTest4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.s
+.PHONY : src/Models/CoinPathTest4.cpp.s
+
+src/Models/CoinTest.o: src/Models/CoinTest.cpp.o
+
+.PHONY : src/Models/CoinTest.o
+
+# target to build an object file
+src/Models/CoinTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.o
+.PHONY : src/Models/CoinTest.cpp.o
+
+src/Models/CoinTest.i: src/Models/CoinTest.cpp.i
+
+.PHONY : src/Models/CoinTest.i
+
+# target to preprocess a source file
+src/Models/CoinTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.i
+.PHONY : src/Models/CoinTest.cpp.i
+
+src/Models/CoinTest.s: src/Models/CoinTest.cpp.s
+
+.PHONY : src/Models/CoinTest.s
+
+# target to generate assembly for a file
+src/Models/CoinTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.s
+.PHONY : src/Models/CoinTest.cpp.s
+
+src/Models/ExchaingMap.o: src/Models/ExchaingMap.cpp.o
+
+.PHONY : src/Models/ExchaingMap.o
+
+# target to build an object file
+src/Models/ExchaingMap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.o
+.PHONY : src/Models/ExchaingMap.cpp.o
+
+src/Models/ExchaingMap.i: src/Models/ExchaingMap.cpp.i
+
+.PHONY : src/Models/ExchaingMap.i
+
+# target to preprocess a source file
+src/Models/ExchaingMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.i
+.PHONY : src/Models/ExchaingMap.cpp.i
+
+src/Models/ExchaingMap.s: src/Models/ExchaingMap.cpp.s
+
+.PHONY : src/Models/ExchaingMap.s
+
+# target to generate assembly for a file
+src/Models/ExchaingMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.s
+.PHONY : src/Models/ExchaingMap.cpp.s
+
+src/Models/MapValue.o: src/Models/MapValue.cpp.o
+
+.PHONY : src/Models/MapValue.o
+
+# target to build an object file
+src/Models/MapValue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.o
+.PHONY : src/Models/MapValue.cpp.o
+
+src/Models/MapValue.i: src/Models/MapValue.cpp.i
+
+.PHONY : src/Models/MapValue.i
+
+# target to preprocess a source file
+src/Models/MapValue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.i
+.PHONY : src/Models/MapValue.cpp.i
+
+src/Models/MapValue.s: src/Models/MapValue.cpp.s
+
+.PHONY : src/Models/MapValue.s
+
+# target to generate assembly for a file
+src/Models/MapValue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.s
+.PHONY : src/Models/MapValue.cpp.s
+
+src/Models/MarketData.o: src/Models/MarketData.cpp.o
+
+.PHONY : src/Models/MarketData.o
+
+# target to build an object file
+src/Models/MarketData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.o
+.PHONY : src/Models/MarketData.cpp.o
+
+src/Models/MarketData.i: src/Models/MarketData.cpp.i
+
+.PHONY : src/Models/MarketData.i
+
+# target to preprocess a source file
+src/Models/MarketData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.i
+.PHONY : src/Models/MarketData.cpp.i
+
+src/Models/MarketData.s: src/Models/MarketData.cpp.s
+
+.PHONY : src/Models/MarketData.s
+
+# target to generate assembly for a file
+src/Models/MarketData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.s
+.PHONY : src/Models/MarketData.cpp.s
+
+src/Models/MarketLevel.o: src/Models/MarketLevel.cpp.o
+
+.PHONY : src/Models/MarketLevel.o
+
+# target to build an object file
+src/Models/MarketLevel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.o
+.PHONY : src/Models/MarketLevel.cpp.o
+
+src/Models/MarketLevel.i: src/Models/MarketLevel.cpp.i
+
+.PHONY : src/Models/MarketLevel.i
+
+# target to preprocess a source file
+src/Models/MarketLevel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.i
+.PHONY : src/Models/MarketLevel.cpp.i
+
+src/Models/MarketLevel.s: src/Models/MarketLevel.cpp.s
+
+.PHONY : src/Models/MarketLevel.s
+
+# target to generate assembly for a file
+src/Models/MarketLevel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.s
+.PHONY : src/Models/MarketLevel.cpp.s
+
+src/Models/MarketPair.o: src/Models/MarketPair.cpp.o
+
+.PHONY : src/Models/MarketPair.o
+
+# target to build an object file
+src/Models/MarketPair.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.o
+.PHONY : src/Models/MarketPair.cpp.o
+
+src/Models/MarketPair.i: src/Models/MarketPair.cpp.i
+
+.PHONY : src/Models/MarketPair.i
+
+# target to preprocess a source file
+src/Models/MarketPair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.i
+.PHONY : src/Models/MarketPair.cpp.i
+
+src/Models/MarketPair.s: src/Models/MarketPair.cpp.s
+
+.PHONY : src/Models/MarketPair.s
+
+# target to generate assembly for a file
+src/Models/MarketPair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.s
+.PHONY : src/Models/MarketPair.cpp.s
+
+src/Models/MarketRate.o: src/Models/MarketRate.cpp.o
+
+.PHONY : src/Models/MarketRate.o
+
+# target to build an object file
+src/Models/MarketRate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.o
+.PHONY : src/Models/MarketRate.cpp.o
+
+src/Models/MarketRate.i: src/Models/MarketRate.cpp.i
+
+.PHONY : src/Models/MarketRate.i
+
+# target to preprocess a source file
+src/Models/MarketRate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.i
+.PHONY : src/Models/MarketRate.cpp.i
+
+src/Models/MarketRate.s: src/Models/MarketRate.cpp.s
+
+.PHONY : src/Models/MarketRate.s
+
+# target to generate assembly for a file
+src/Models/MarketRate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.s
+.PHONY : src/Models/MarketRate.cpp.s
+
+src/Models/MarketRateState.o: src/Models/MarketRateState.cpp.o
+
+.PHONY : src/Models/MarketRateState.o
+
+# target to build an object file
+src/Models/MarketRateState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.o
+.PHONY : src/Models/MarketRateState.cpp.o
+
+src/Models/MarketRateState.i: src/Models/MarketRateState.cpp.i
+
+.PHONY : src/Models/MarketRateState.i
+
+# target to preprocess a source file
+src/Models/MarketRateState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.i
+.PHONY : src/Models/MarketRateState.cpp.i
+
+src/Models/MarketRateState.s: src/Models/MarketRateState.cpp.s
+
+.PHONY : src/Models/MarketRateState.s
+
+# target to generate assembly for a file
+src/Models/MarketRateState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.s
+.PHONY : src/Models/MarketRateState.cpp.s
+
+src/Models/MarketSaveState.o: src/Models/MarketSaveState.cpp.o
+
+.PHONY : src/Models/MarketSaveState.o
+
+# target to build an object file
+src/Models/MarketSaveState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.o
+.PHONY : src/Models/MarketSaveState.cpp.o
+
+src/Models/MarketSaveState.i: src/Models/MarketSaveState.cpp.i
+
+.PHONY : src/Models/MarketSaveState.i
+
+# target to preprocess a source file
+src/Models/MarketSaveState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.i
+.PHONY : src/Models/MarketSaveState.cpp.i
+
+src/Models/MarketSaveState.s: src/Models/MarketSaveState.cpp.s
+
+.PHONY : src/Models/MarketSaveState.s
+
+# target to generate assembly for a file
+src/Models/MarketSaveState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.s
+.PHONY : src/Models/MarketSaveState.cpp.s
+
+src/Models/PathStep.o: src/Models/PathStep.cpp.o
+
+.PHONY : src/Models/PathStep.o
+
+# target to build an object file
+src/Models/PathStep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.o
+.PHONY : src/Models/PathStep.cpp.o
+
+src/Models/PathStep.i: src/Models/PathStep.cpp.i
+
+.PHONY : src/Models/PathStep.i
+
+# target to preprocess a source file
+src/Models/PathStep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.i
+.PHONY : src/Models/PathStep.cpp.i
+
+src/Models/PathStep.s: src/Models/PathStep.cpp.s
+
+.PHONY : src/Models/PathStep.s
+
+# target to generate assembly for a file
+src/Models/PathStep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.s
+.PHONY : src/Models/PathStep.cpp.s
+
+src/Models/SavePathStep.o: src/Models/SavePathStep.cpp.o
+
+.PHONY : src/Models/SavePathStep.o
+
+# target to build an object file
+src/Models/SavePathStep.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.o
+.PHONY : src/Models/SavePathStep.cpp.o
+
+src/Models/SavePathStep.i: src/Models/SavePathStep.cpp.i
+
+.PHONY : src/Models/SavePathStep.i
+
+# target to preprocess a source file
+src/Models/SavePathStep.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.i
+.PHONY : src/Models/SavePathStep.cpp.i
+
+src/Models/SavePathStep.s: src/Models/SavePathStep.cpp.s
+
+.PHONY : src/Models/SavePathStep.s
+
+# target to generate assembly for a file
+src/Models/SavePathStep.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.s
+.PHONY : src/Models/SavePathStep.cpp.s
+
+src/Models/StepValue.o: src/Models/StepValue.cpp.o
+
+.PHONY : src/Models/StepValue.o
+
+# target to build an object file
+src/Models/StepValue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.o
+.PHONY : src/Models/StepValue.cpp.o
+
+src/Models/StepValue.i: src/Models/StepValue.cpp.i
+
+.PHONY : src/Models/StepValue.i
+
+# target to preprocess a source file
+src/Models/StepValue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.i
+.PHONY : src/Models/StepValue.cpp.i
+
+src/Models/StepValue.s: src/Models/StepValue.cpp.s
+
+.PHONY : src/Models/StepValue.s
+
+# target to generate assembly for a file
+src/Models/StepValue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.s
+.PHONY : src/Models/StepValue.cpp.s
+
+src/PathFinder.o: src/PathFinder.cpp.o
+
+.PHONY : src/PathFinder.o
+
+# target to build an object file
+src/PathFinder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.o
+.PHONY : src/PathFinder.cpp.o
+
+src/PathFinder.i: src/PathFinder.cpp.i
+
+.PHONY : src/PathFinder.i
+
+# target to preprocess a source file
+src/PathFinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.i
+.PHONY : src/PathFinder.cpp.i
+
+src/PathFinder.s: src/PathFinder.cpp.s
+
+.PHONY : src/PathFinder.s
+
+# target to generate assembly for a file
+src/PathFinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.s
+.PHONY : src/PathFinder.cpp.s
+
+src/TickerHooks.o: src/TickerHooks.cpp.o
+
+.PHONY : src/TickerHooks.o
+
+# target to build an object file
+src/TickerHooks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.o
+.PHONY : src/TickerHooks.cpp.o
+
+src/TickerHooks.i: src/TickerHooks.cpp.i
+
+.PHONY : src/TickerHooks.i
+
+# target to preprocess a source file
+src/TickerHooks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.i
+.PHONY : src/TickerHooks.cpp.i
+
+src/TickerHooks.s: src/TickerHooks.cpp.s
+
+.PHONY : src/TickerHooks.s
+
+# target to generate assembly for a file
+src/TickerHooks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coinbase_robot_ex.dir/build.make CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.s
+.PHONY : src/TickerHooks.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -181,6 +1072,105 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/CoinbaseRobotCpp.o"
+	@echo "... src/CoinbaseRobotCpp.i"
+	@echo "... src/CoinbaseRobotCpp.s"
+	@echo "... src/Helpers/Base26.o"
+	@echo "... src/Helpers/Base26.i"
+	@echo "... src/Helpers/Base26.s"
+	@echo "... src/Helpers/CoinBalanceHelper.o"
+	@echo "... src/Helpers/CoinBalanceHelper.i"
+	@echo "... src/Helpers/CoinBalanceHelper.s"
+	@echo "... src/Helpers/CoinTradeHelper.o"
+	@echo "... src/Helpers/CoinTradeHelper.i"
+	@echo "... src/Helpers/CoinTradeHelper.s"
+	@echo "... src/Helpers/LoadCoinBalanceHelper.o"
+	@echo "... src/Helpers/LoadCoinBalanceHelper.i"
+	@echo "... src/Helpers/LoadCoinBalanceHelper.s"
+	@echo "... src/Helpers/LoadCoinsAndMarketsHelper.o"
+	@echo "... src/Helpers/LoadCoinsAndMarketsHelper.i"
+	@echo "... src/Helpers/LoadCoinsAndMarketsHelper.s"
+	@echo "... src/Helpers/OrderHelper.o"
+	@echo "... src/Helpers/OrderHelper.i"
+	@echo "... src/Helpers/OrderHelper.s"
+	@echo "... src/Helpers/ProcessHelper.o"
+	@echo "... src/Helpers/ProcessHelper.i"
+	@echo "... src/Helpers/ProcessHelper.s"
+	@echo "... src/Helpers/PurgeMarketsHelper.o"
+	@echo "... src/Helpers/PurgeMarketsHelper.i"
+	@echo "... src/Helpers/PurgeMarketsHelper.s"
+	@echo "... src/Models/AuditLevelPath.o"
+	@echo "... src/Models/AuditLevelPath.i"
+	@echo "... src/Models/AuditLevelPath.s"
+	@echo "... src/Models/Coin.o"
+	@echo "... src/Models/Coin.i"
+	@echo "... src/Models/Coin.s"
+	@echo "... src/Models/CoinBalanceConcensus.o"
+	@echo "... src/Models/CoinBalanceConcensus.i"
+	@echo "... src/Models/CoinBalanceConcensus.s"
+	@echo "... src/Models/CoinBalances.o"
+	@echo "... src/Models/CoinBalances.i"
+	@echo "... src/Models/CoinBalances.s"
+	@echo "... src/Models/CoinPathStore.o"
+	@echo "... src/Models/CoinPathStore.i"
+	@echo "... src/Models/CoinPathStore.s"
+	@echo "... src/Models/CoinPathTest0.o"
+	@echo "... src/Models/CoinPathTest0.i"
+	@echo "... src/Models/CoinPathTest0.s"
+	@echo "... src/Models/CoinPathTest1.o"
+	@echo "... src/Models/CoinPathTest1.i"
+	@echo "... src/Models/CoinPathTest1.s"
+	@echo "... src/Models/CoinPathTest2.o"
+	@echo "... src/Models/CoinPathTest2.i"
+	@echo "... src/Models/CoinPathTest2.s"
+	@echo "... src/Models/CoinPathTest3.o"
+	@echo "... src/Models/CoinPathTest3.i"
+	@echo "... src/Models/CoinPathTest3.s"
+	@echo "... src/Models/CoinPathTest4.o"
+	@echo "... src/Models/CoinPathTest4.i"
+	@echo "... src/Models/CoinPathTest4.s"
+	@echo "... src/Models/CoinTest.o"
+	@echo "... src/Models/CoinTest.i"
+	@echo "... src/Models/CoinTest.s"
+	@echo "... src/Models/ExchaingMap.o"
+	@echo "... src/Models/ExchaingMap.i"
+	@echo "... src/Models/ExchaingMap.s"
+	@echo "... src/Models/MapValue.o"
+	@echo "... src/Models/MapValue.i"
+	@echo "... src/Models/MapValue.s"
+	@echo "... src/Models/MarketData.o"
+	@echo "... src/Models/MarketData.i"
+	@echo "... src/Models/MarketData.s"
+	@echo "... src/Models/MarketLevel.o"
+	@echo "... src/Models/MarketLevel.i"
+	@echo "... src/Models/MarketLevel.s"
+	@echo "... src/Models/MarketPair.o"
+	@echo "... src/Models/MarketPair.i"
+	@echo "... src/Models/MarketPair.s"
+	@echo "... src/Models/MarketRate.o"
+	@echo "... src/Models/MarketRate.i"
+	@echo "... src/Models/MarketRate.s"
+	@echo "... src/Models/MarketRateState.o"
+	@echo "... src/Models/MarketRateState.i"
+	@echo "... src/Models/MarketRateState.s"
+	@echo "... src/Models/MarketSaveState.o"
+	@echo "... src/Models/MarketSaveState.i"
+	@echo "... src/Models/MarketSaveState.s"
+	@echo "... src/Models/PathStep.o"
+	@echo "... src/Models/PathStep.i"
+	@echo "... src/Models/PathStep.s"
+	@echo "... src/Models/SavePathStep.o"
+	@echo "... src/Models/SavePathStep.i"
+	@echo "... src/Models/SavePathStep.s"
+	@echo "... src/Models/StepValue.o"
+	@echo "... src/Models/StepValue.i"
+	@echo "... src/Models/StepValue.s"
+	@echo "... src/PathFinder.o"
+	@echo "... src/PathFinder.i"
+	@echo "... src/PathFinder.s"
+	@echo "... src/TickerHooks.o"
+	@echo "... src/TickerHooks.i"
+	@echo "... src/TickerHooks.s"
 .PHONY : help
 
 

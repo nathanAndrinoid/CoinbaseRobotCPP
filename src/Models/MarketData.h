@@ -15,13 +15,13 @@ namespace Robot::Common::Models
 	private:
 //C# TO C++ CONVERTER NOTE: The following .NET attribute has no direct equivalent in C++:
 //ORIGINAL LINE: [NonSerialized] private static MemoryMappedFile dataFileMap;
-		static MemoryMappedFile *dataFileMap;
+		//static MemoryMappedFile *dataFileMap;
 //C# TO C++ CONVERTER NOTE: The following .NET attribute has no direct equivalent in C++:
 //ORIGINAL LINE: [NonSerialized] private BinaryFormatter binaryFormatter;
-		BinaryFormatter *binaryFormatter;
+		//BinaryFormatter *binaryFormatter;
 //C# TO C++ CONVERTER NOTE: The following .NET attribute has no direct equivalent in C++:
 //ORIGINAL LINE: [NonSerialized] private MemoryMappedViewStream stream;
-		MemoryMappedViewStream *stream;
+		//MemoryMappedViewStream *stream;
 
 	public:
 		long long FileSize = 0;
@@ -29,15 +29,15 @@ namespace Robot::Common::Models
 
 		virtual ~MarketData()
 		{
-			delete binaryFormatter;
-			delete stream;
+			// delete binaryFormatter;
+			// delete stream;
 		}
 
 		MarketData();
 
 		MarketData(std::vector<MarketPair*> &marketPairArray);
 
-		void ConfigureMarketRateStorage(const std::wstring &fileName, std::optional<MemoryMappedFileAccess> &fileAccess = std::nullopt, bool initialSetup = false);
+		void ConfigureMarketRateStorage();//const std::wstring &fileName, std::optional<MemoryMappedFileAccess> &fileAccess = std::nullopt, bool initialSetup = false);
 
 		void SaveMarketDataToMap();
 

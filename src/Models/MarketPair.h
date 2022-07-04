@@ -12,20 +12,20 @@ namespace Robot::Common::Models
 	public:
 		std::wstring Symbol;
 		int Index = 0;
-		Coin *BaseCurrency;
-		Coin *QuoteCurrency;
+		void *BaseCurrency;
+		void *QuoteCurrency;
 		std::wstring BaseCurrencySymbol;
 		int BasePrecision = 0;
 		std::wstring QuoteCurrencySymbol;
 		int QuotePrecision = 0;
 		bool IsBusy = false;
 		std::wstring Exchange;
-		DateTime LastOrderSearch;
+		time_t LastOrderSearch;
 
 		virtual ~MarketPair()
 		{
-			delete BaseCurrency;
-			delete QuoteCurrency;
+			// delete (Coin*)BaseCurrency;
+			// delete (Coin*)QuoteCurrency;
 		}
 
 		MarketPair();

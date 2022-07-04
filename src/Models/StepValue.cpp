@@ -2,6 +2,6 @@
 
 using namespace Robot::Common::Models;
 
-namespace App1::Models
+namespace Robot::Common::Models
 {
 }

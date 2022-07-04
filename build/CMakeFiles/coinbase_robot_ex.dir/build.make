@@ -89,20 +89,515 @@ CMakeFiles/coinbase_robot_ex.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/main.cpp -o CMakeFiles/coinbase_robot_ex.dir/main.cpp.s
 
+CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.o: ../src/CoinbaseRobotCpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/CoinbaseRobotCpp.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/CoinbaseRobotCpp.cpp > CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/CoinbaseRobotCpp.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.o: ../src/Helpers/Base26.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/Base26.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/Base26.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/Base26.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.o: ../src/Helpers/CoinBalanceHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/CoinBalanceHelper.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/CoinBalanceHelper.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/CoinBalanceHelper.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.o: ../src/Helpers/CoinTradeHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/CoinTradeHelper.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/CoinTradeHelper.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/CoinTradeHelper.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.o: ../src/Helpers/LoadCoinBalanceHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/LoadCoinBalanceHelper.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/LoadCoinBalanceHelper.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/LoadCoinBalanceHelper.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.o: ../src/Helpers/LoadCoinsAndMarketsHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/LoadCoinsAndMarketsHelper.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/LoadCoinsAndMarketsHelper.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/LoadCoinsAndMarketsHelper.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.o: ../src/Helpers/OrderHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/OrderHelper.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/OrderHelper.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/OrderHelper.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.o: ../src/Helpers/ProcessHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/ProcessHelper.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/ProcessHelper.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/ProcessHelper.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.o: ../src/Helpers/PurgeMarketsHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Helpers/PurgeMarketsHelper.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Helpers/PurgeMarketsHelper.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Helpers/PurgeMarketsHelper.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.o: ../src/Models/AuditLevelPath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/AuditLevelPath.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/AuditLevelPath.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/AuditLevelPath.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.o: ../src/Models/Coin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/Coin.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/Coin.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/Coin.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.o: ../src/Models/CoinBalanceConcensus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinBalanceConcensus.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinBalanceConcensus.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinBalanceConcensus.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.o: ../src/Models/CoinBalances.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinBalances.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinBalances.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinBalances.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.o: ../src/Models/CoinPathStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathStore.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathStore.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathStore.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.o: ../src/Models/CoinPathTest0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest0.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest0.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest0.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.o: ../src/Models/CoinPathTest1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest1.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest1.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest1.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.o: ../src/Models/CoinPathTest2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest2.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest2.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest2.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.o: ../src/Models/CoinPathTest3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest3.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest3.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest3.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.o: ../src/Models/CoinPathTest4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest4.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest4.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinPathTest4.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.o: ../src/Models/CoinTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/CoinTest.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/CoinTest.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/CoinTest.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.o: ../src/Models/ExchaingMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/ExchaingMap.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/ExchaingMap.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/ExchaingMap.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.o: ../src/Models/MapValue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/MapValue.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/MapValue.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/MapValue.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.o: ../src/Models/MarketData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/MarketData.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/MarketData.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/MarketData.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.o: ../src/Models/MarketLevel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/MarketLevel.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/MarketLevel.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/MarketLevel.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.o: ../src/Models/MarketPair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/MarketPair.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/MarketPair.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/MarketPair.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.o: ../src/Models/MarketRate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/MarketRate.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/MarketRate.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/MarketRate.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.o: ../src/Models/MarketRateState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/MarketRateState.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/MarketRateState.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/MarketRateState.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.o: ../src/Models/MarketSaveState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/MarketSaveState.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/MarketSaveState.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/MarketSaveState.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.o: ../src/Models/PathStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/PathStep.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/PathStep.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/PathStep.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.o: ../src/Models/SavePathStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/SavePathStep.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/SavePathStep.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/SavePathStep.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.o: ../src/Models/StepValue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/Models/StepValue.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/Models/StepValue.cpp > CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/Models/StepValue.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.o: ../src/PathFinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/PathFinder.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/PathFinder.cpp > CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/PathFinder.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.s
+
+CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.o: CMakeFiles/coinbase_robot_ex.dir/flags.make
+CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.o: ../src/TickerHooks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.o -c /home/mranderson/CoinbaseRobotCPP/src/TickerHooks.cpp
+
+CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mranderson/CoinbaseRobotCPP/src/TickerHooks.cpp > CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.i
+
+CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mranderson/CoinbaseRobotCPP/src/TickerHooks.cpp -o CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.s
+
 # Object files for target coinbase_robot_ex
 coinbase_robot_ex_OBJECTS = \
-"CMakeFiles/coinbase_robot_ex.dir/main.cpp.o"
+"CMakeFiles/coinbase_robot_ex.dir/main.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.o" \
+"CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.o"
 
 # External object files for target coinbase_robot_ex
 coinbase_robot_ex_EXTERNAL_OBJECTS =
 
 coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/main.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/CoinbaseRobotCpp.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/Base26.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinBalanceHelper.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/CoinTradeHelper.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinBalanceHelper.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/LoadCoinsAndMarketsHelper.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/OrderHelper.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/ProcessHelper.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Helpers/PurgeMarketsHelper.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/AuditLevelPath.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/Coin.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalanceConcensus.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinBalances.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathStore.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest0.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest1.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest2.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest3.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinPathTest4.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/CoinTest.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/ExchaingMap.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/MapValue.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketData.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketLevel.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketPair.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRate.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketRateState.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/MarketSaveState.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/PathStep.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/SavePathStep.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/Models/StepValue.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/PathFinder.cpp.o
+coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/src/TickerHooks.cpp.o
 coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/build.make
 coinbase_robot_ex: /usr/local/lib/libcbpro++.a
 coinbase_robot_ex: /usr/lib/x86_64-linux-gnu/libssl.so
 coinbase_robot_ex: /usr/lib/x86_64-linux-gnu/libcrypto.so
 coinbase_robot_ex: CMakeFiles/coinbase_robot_ex.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable coinbase_robot_ex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mranderson/CoinbaseRobotCPP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable coinbase_robot_ex"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coinbase_robot_ex.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

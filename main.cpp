@@ -8,7 +8,12 @@
 #include <future>
 #include <string>
 #include <mutex>
+#include "src/CoinbaseRobotCpp.h"
 
+using namespace Robot::CoinbaseCpp;
+
+//#include "src/boolinq/boolinq.h"
+/*
 std::mutex m;
 struct X {
     void foo(int i, const std::string& str) {
@@ -39,10 +44,47 @@ int parallel_sum(RandomIt beg, RandomIt end)
    int sum = parallel_sum(beg, mid);
    return sum + handle.get();
 }
-
+*/
 int main() {
 
+  std::cout << "Start" << std::endl;
 
+CoinbaseRobotCpp cr;
+
+
+
+std::cout << "Done" << std::endl;
+
+
+  return 0;
+  /*
+  int src[] = {10,100,1,2,3,4,5,6};
+      int ans[] = {1,  3,  5};
+      std::string s = "123h456e78ll9o";
+
+      std::vector<int> vi(src, src + sizeof src / sizeof src[0]);
+      std::vector<char> vc(s.begin(), s.end());
+
+      auto rng = boolinq::from(vc);
+      auto dst = rng.where([](char a){return std::isalpha(a); });
+
+      std::sort(vi.begin(), vi.end(), std::greater <>());//, std::string::compare);
+
+      for(std::vector<int>::iterator i = vi.begin(); i != vi.end(); ++i)
+      {
+        std::cout << *i << " ";
+          //printf("%s\n", i.c_str);
+      }
+
+      std::string apiSecret("USD");
+
+      for (auto &item : dst.toStdVector())
+      {
+        std::cout << item;
+      }
+      std::cout << apiSecret << std::endl;
+
+      return 0;
 
 
       Auth auth("2e506aa3ec83fb4164e50b79ff0a7fd4", "YN3Zf9zH+zdi53MiKBmjWq267/j+BZQkVt/RXUNyTW+jj2TzT5m58XgTuH1LAvzApvQeaOPkZ7aOhu5WkS828A==", "tzi4cbvjyt", Auth::Mode::LIVE);
@@ -92,6 +134,6 @@ int main() {
             std::cout << bid.getPrice() << std::endl;
       //  }
     }
-
+*/
     return 0;
 }

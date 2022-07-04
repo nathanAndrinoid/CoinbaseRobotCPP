@@ -1,19 +1,17 @@
 ﻿#pragma once
 
-#include "Coin.h"
+//#include "Coin.h"
 
-using namespace Robot::Common::Models;
-
-namespace App1::Models
+namespace Robot::Common::Models
 {
 	class StepValue
 	{
 	public:
 		double value = 0.0;
-		Coin *coin;
+		//Coin *coin;
 		virtual ~StepValue()
 		{
-			delete coin;
+		//	delete coin;
 		}
 
 	};

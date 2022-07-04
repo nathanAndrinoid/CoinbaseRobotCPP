@@ -100,7 +100,7 @@ namespace Robot::Common::Models
 		//}
 
 	public:
-		static void ErraseMapStorrage(std::vector<MemoryMappedViewAccessor*> &dataAccessor, int CoinCount, double zero);
+		static void ErraseMapStorrage();//std::vector<MemoryMappedViewAccessor*> &dataAccessor, int CoinCount, double zero);
 
 		//public static bool WaitingForSwitch()
 		//{
@@ -128,9 +128,9 @@ namespace Robot::Common::Models
 		//    controlAccessor.Write<int>(4, ref switchFlag);
 		//}
 
-		static int ObjectWrite(MemoryMappedViewAccessor *dataAccessor, int index, int coinId1, double value1, int coinId2, double value2);
+		static int ObjectWrite(int index);//, MemoryMappedViewAccessor *dataAccessor, int coinId1, double value1, int coinId2, double value2);
 
-		static int ObjectRead(MemoryMappedViewAccessor *dataAccessor, int index, int &coinId1, double &value1, int &coinId2, double &value2);
+		static int ObjectRead(int index);//, MemoryMappedViewAccessor *dataAccessor, int &coinId1, double &value1, int &coinId2, double &value2);
 
 	};
 }
